@@ -336,6 +336,8 @@ public class Main
                     for (int i = 0; i < espaiAeri.length; i++) {
 
                         Avio check = espaiAeri[i];
+                        if (check != null) {
+                         
                         if (matricula.equals(check.getMatricula()) && check instanceof AvioMilitar) {
 
                             Encriptar encriptar = new Encriptar();
@@ -346,6 +348,8 @@ public class Main
 
                             System.out.println("L' avio no s'ha trobat o no és un avio militar");
 
+                        }
+                            
                         }
 
                     }
@@ -360,6 +364,8 @@ public class Main
                     for (int i = 0; i < espaiAeri.length; i++) {
 
                         Avio check = espaiAeri[i];
+                        if (check != null) {
+                        
                         if (matricula.equals(check.getMatricula()) && check instanceof AvioMilitar) {
 
                             Encriptar encriptar = new Encriptar();
@@ -370,6 +376,8 @@ public class Main
 
                             System.out.println("L' avio no s'ha trobat o no és un avio militar");
 
+                        }
+                        
                         }
 
                     }
